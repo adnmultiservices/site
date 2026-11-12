@@ -1,0 +1,14 @@
+ADN MULTISERVICES - SITE adn-multiservice.fr
+
+CONTENU
+  index.html            page d'accueil
+  8 dossiers de pages   renovation-appartement, peinture-appartement, degats-des-eaux,
+                        placo-platre-enduit, stucco-venitien, ravalement-facade,
+                        peinture-exterieure, revetement-sol
+  images/ videos/       photos (97) et vidéos (4)
+  style.css             mise en page des pages de prestations
+  CNAME                 indique à GitHub le nom de domaine
+  robots.txt, sitemap.xml   pour Google
+
+MISE EN LIGNE : voir les explications dans la conversation
+(envoyer par lots de 100 fichiers maximum, en gardant les dossiers).

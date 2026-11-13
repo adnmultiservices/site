@@ -438,12 +438,20 @@ h2::after{content:"";display:block;width:70px;height:2px;margin-top:14px;backgro
 .avis-card p{color:#ddd;font-style:italic}
 .avis-card footer{margin-top:14px;color:var(--gold);font-weight:bold;font-size:14px}
 @media(max-width:900px){.avis-grid{grid-template-columns:1fr}.avis-head .btn{margin-left:0}}
+
+/* nom de l'entreprise à côté du logo */
+.logo-txt{font-size:34px;letter-spacing:6px;font-weight:bold;line-height:1;background:linear-gradient(180deg,#f0d28a,#c9a45d 60%,#a8832f);-webkit-background-clip:text;background-clip:text;color:transparent}
+.logo-txt small{display:block;margin-top:6px;font-size:12px;letter-spacing:5px;color:#fff;-webkit-text-fill-color:#fff}
+@media(max-width:520px){.logo-txt{font-size:24px;letter-spacing:4px}.logo-txt small{font-size:9px;letter-spacing:3px}}
+/* logo de l'accueil fondu dans le décor */
+.hero-logo{opacity:.55;mix-blend-mode:screen;filter:none;-webkit-mask-image:radial-gradient(closest-side,#000 55%,transparent 100%);mask-image:radial-gradient(closest-side,#000 55%,transparent 100%)}
+@media(max-width:900px){.hero-logo{opacity:.6}}
 </style>
 </head>
 <body>
 <header>
   <div class="container topbar">
-    <a href="#accueil" class="logo"><img src="images/logo-adn-multiservices.png" alt="ADN Multiservices – peintre à Vaulx-en-Velin" width="84" height="84"></a>
+    <a href="#accueil" class="logo"><img src="images/logo-adn-multiservices.png" alt="ADN Multiservices – peintre à Vaulx-en-Velin" width="84" height="84"><span class="logo-txt">ADN<small>MULTISERVICES</small></span></a>
     <div class="top-actions">
       <a href="tel:+33614835155" class="outline">📞 06 14 83 51 55</a>
       <a href="#devis" class="btn">Faire un devis</a>

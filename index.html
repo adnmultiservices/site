@@ -309,7 +309,8 @@ footer{border-top:1px solid var(--gold);padding:25px;text-align:center;color:#aa
 @media(max-width:750px){.contact-grid,.gallery{grid-template-columns:1fr}.top-actions{display:none}}
 @media(max-width:520px){.grid3{grid-template-columns:1fr}}
 .logo{display:flex;align-items:center;gap:14px}
-.logo img{height:58px;width:auto;display:block}
+.logo img{height:84px;width:84px;display:block}
+@media(max-width:520px){.logo img{height:68px;width:68px}}
 .logo-txt{display:block}
 .hero .container{position:relative}
 .hero-logo{position:absolute;right:0;top:50%;transform:translateY(-62%);width:min(360px,34%);height:auto;filter:drop-shadow(0 8px 30px rgba(0,0,0,.6))}
@@ -405,12 +406,43 @@ legend{padding:0 8px;color:var(--gold);font-weight:bold}
 a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #fff;outline-offset:2px}
 @media(max-width:900px){.zones{grid-template-columns:1fr}}
 @media(max-width:520px){.chk,.row2{grid-template-columns:1fr}}
+
+/* ===== FOND NOIR MARBRE + VEINES DORÉES ===== */
+body{background:#060606}
+body::before{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;
+ background:url("data:image/svg+xml;utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1000' preserveAspectRatio='xMidYMid slice'%3E%3Cdefs%3E%3Cfilter id='b' x='-10%' y='-10%' width='120%' height='120%'%3E%3CfeGaussianBlur stdDeviation='6'/%3E%3C/filter%3E%3C/defs%3E%3Cg fill='none' stroke-linecap='round'%3E%3Cpath d='M-50 180 C 200 120, 330 330, 560 280 S 900 90, 1130 250 S 1500 330, 1680 210' stroke='%23e2c27a' stroke-opacity='0.30' stroke-width='6.5' filter='url(%23b)'/%3E%3Cpath d='M-50 180 C 200 120, 330 330, 560 280 S 900 90, 1130 250 S 1500 330, 1680 210' stroke='%23d9b46a' stroke-opacity='0.55' stroke-width='1.3'/%3E%3Cpath d='M-50 620 C 180 560, 300 760, 520 700 S 820 520, 1040 640 S 1450 800, 1680 690' stroke='%23e2c27a' stroke-opacity='0.25' stroke-width='5.5' filter='url(%23b)'/%3E%3Cpath d='M-50 620 C 180 560, 300 760, 520 700 S 820 520, 1040 640 S 1450 800, 1680 690' stroke='%23d9b46a' stroke-opacity='0.45' stroke-width='1.1'/%3E%3Cpath d='M240 -40 C 300 160, 210 300, 330 470 S 470 760, 400 1050' stroke='%23e2c27a' stroke-opacity='0.22' stroke-width='5.0' filter='url(%23b)'/%3E%3Cpath d='M240 -40 C 300 160, 210 300, 330 470 S 470 760, 400 1050' stroke='%23d9b46a' stroke-opacity='0.40' stroke-width='1.0'/%3E%3Cpath d='M1180 -40 C 1120 180, 1260 300, 1200 520 S 1100 800, 1230 1050' stroke='%23e2c27a' stroke-opacity='0.28' stroke-width='6.0' filter='url(%23b)'/%3E%3Cpath d='M1180 -40 C 1120 180, 1260 300, 1200 520 S 1100 800, 1230 1050' stroke='%23d9b46a' stroke-opacity='0.50' stroke-width='1.2'/%3E%3Cpath d='M560 280 C 600 380, 700 400, 760 520 S 780 760, 880 860' stroke='%23e2c27a' stroke-opacity='0.19' stroke-width='3.5' filter='url(%23b)'/%3E%3Cpath d='M560 280 C 600 380, 700 400, 760 520 S 780 760, 880 860' stroke='%23d9b46a' stroke-opacity='0.35' stroke-width='0.7'/%3E%3Cpath d='M1130 250 C 1170 330, 1290 340, 1360 440 S 1470 560, 1620 540' stroke='%23e2c27a' stroke-opacity='0.19' stroke-width='3.5' filter='url(%23b)'/%3E%3Cpath d='M1130 250 C 1170 330, 1290 340, 1360 440 S 1470 560, 1620 540' stroke='%23d9b46a' stroke-opacity='0.35' stroke-width='0.7'/%3E%3Cpath d='M330 470 C 420 440, 470 360, 590 380' stroke='%23e2c27a' stroke-opacity='0.17' stroke-width='3.0' filter='url(%23b)'/%3E%3Cpath d='M330 470 C 420 440, 470 360, 590 380' stroke='%23d9b46a' stroke-opacity='0.30' stroke-width='0.6'/%3E%3Cpath d='M1040 640 C 980 720, 1000 830, 930 960' stroke='%23e2c27a' stroke-opacity='0.17' stroke-width='3.0' filter='url(%23b)'/%3E%3Cpath d='M1040 640 C 980 720, 1000 830, 930 960' stroke='%23d9b46a' stroke-opacity='0.30' stroke-width='0.6'/%3E%3Cpath d='M-50 880 C 150 840, 260 940, 430 910 S 700 840, 860 930' stroke='%23e2c27a' stroke-opacity='0.17' stroke-width='4.0' filter='url(%23b)'/%3E%3Cpath d='M-50 880 C 150 840, 260 940, 430 910 S 700 840, 860 930' stroke='%23d9b46a' stroke-opacity='0.30' stroke-width='0.8'/%3E%3Cpath d='M900 -40 C 880 60, 960 120, 940 210' stroke='%23e2c27a' stroke-opacity='0.17' stroke-width='3.0' filter='url(%23b)'/%3E%3Cpath d='M900 -40 C 880 60, 960 120, 940 210' stroke='%23d9b46a' stroke-opacity='0.30' stroke-width='0.6'/%3E%3C/g%3E%3C/svg%3E") center/cover no-repeat,
+ radial-gradient(ellipse at 15% 10%,#1c1710 0%,transparent 55%),
+ radial-gradient(ellipse at 85% 85%,#18130b 0%,transparent 50%),
+ #070707}
+.hero{background:radial-gradient(ellipse at 80% 40%,rgba(73,55,28,.7),transparent 45%),linear-gradient(110deg,rgba(8,8,8,.55),rgba(23,19,12,.45))}
+.alt{background:rgba(9,9,9,.72)}
+.slider-sec{background:rgba(8,8,8,.62)}
+.contact{background:rgba(12,10,6,.72)}
+section+section{border-top:1px solid rgba(201,164,93,.14)}
+.card,.steps>div,.zones>div,.faq details,.contact-card,.pair,.chantier{background:rgba(18,18,18,.88);backdrop-filter:blur(2px)}
+h2{letter-spacing:1px}
+h2::after{content:"";display:block;width:70px;height:2px;margin-top:14px;background:linear-gradient(90deg,var(--gold),transparent)}
+/* ===== AVIS GOOGLE ===== */
+.avis-head{display:flex;align-items:center;gap:30px;flex-wrap:wrap;border:1px solid var(--gold);background:linear-gradient(110deg,rgba(23,19,12,.9),rgba(38,32,15,.8));padding:28px 32px;border-radius:5px;margin-bottom:30px}
+.avis-note{font-size:64px;font-weight:bold;color:var(--gold);line-height:1}
+.avis-stars{color:var(--gold);font-size:26px;letter-spacing:4px;line-height:1.2}
+.avis-sub{color:#ccc;margin-top:4px}
+.avis-g{display:flex;align-items:center;gap:8px;color:#ddd;font-size:14px;margin-top:6px}
+.avis-g b{font-size:18px;color:#fff;letter-spacing:0}
+.avis-head .btn{margin-left:auto}
+.avis-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.avis-card{background:rgba(18,18,18,.88);border:1px solid #49391f;border-radius:5px;padding:24px;transition:.2s}
+.avis-card:hover{border-color:var(--gold)}
+.avis-card .st{color:var(--gold);letter-spacing:3px;margin-bottom:10px}
+.avis-card p{color:#ddd;font-style:italic}
+.avis-card footer{margin-top:14px;color:var(--gold);font-weight:bold;font-size:14px}
+@media(max-width:900px){.avis-grid{grid-template-columns:1fr}.avis-head .btn{margin-left:0}}
 </style>
 </head>
 <body>
 <header>
   <div class="container topbar">
-    <a href="#accueil" class="logo"><img src="images/logo-adn-multiservices.png" alt="Logo ADN Multiservices, peintre à Vaulx-en-Velin" width="67" height="58"><span class="logo-txt">ADN<small>MULTISERVICES</small></span></a>
+    <a href="#accueil" class="logo"><img src="images/logo-adn-multiservices.png" alt="ADN Multiservices – peintre à Vaulx-en-Velin" width="84" height="84"></a>
     <div class="top-actions">
       <a href="tel:+33614835155" class="outline">📞 06 14 83 51 55</a>
       <a href="#devis" class="btn">Faire un devis</a>
@@ -500,6 +532,22 @@ a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,te
   </div>
 </section>
 
+<section id="avis" data-page="accueil">
+  <div class="container">
+    <h2>AVIS <span class="gold">CLIENTS GOOGLE</span></h2>
+    <p class="intro">La confiance de nos clients est notre meilleure carte de visite. Voici la note de notre fiche Google.</p>
+    <div class="avis-head">
+      <div class="avis-note">5,0</div>
+      <div>
+        <div class="avis-stars" aria-label="5 étoiles sur 5">★★★★★</div>
+        <div class="avis-sub">7 avis clients</div>
+        <div class="avis-g"><b>Google</b> · ADN Artisan Travaux Rénovation Ravalement 69</div>
+      </div>
+      <a class="btn" href="https://www.google.com/search?q=ADN+Artisan+Travaux+R%C3%A9novation+Ravalement+69+avis" target="_blank" rel="noopener">Lire les avis sur Google</a>
+    </div>
+    <div class="avis-grid" id="avisGrid"></div>
+  </div>
+</section>
 <section class="alt" id="faq" data-page="accueil">
   <div class="container">
     <h2>QUESTIONS <span class="gold">FRÉQUENTES</span></h2>
@@ -1341,6 +1389,14 @@ function afficherPage() {
 }
 window.addEventListener("hashchange", afficherPage);
 afficherPage();
+</script>
+<script>
+/* AVIS GOOGLE : copiez-collez ici les vrais avis (un par ligne), exemple :
+   {nom:"Marie L.", texte:"Travail impeccable, merci !"}, */
+const AVIS = [
+];
+document.getElementById("avisGrid").innerHTML = AVIS.map(a =>
+  `<article class="avis-card"><div class="st">★★★★★</div><p>« ${a.texte} »</p><footer>${a.nom} · Avis Google</footer></article>`).join("");
 </script>
 </body>
 </html>

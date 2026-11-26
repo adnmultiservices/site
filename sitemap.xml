@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://adn-multiservices.fr/</loc>
-    <lastmod>2026-11-13</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<url><loc>https://adn-multiservices.fr/</loc></url>
+<url><loc>https://adn-multiservices.fr/degats-des-eaux/</loc></url>
+<url><loc>https://adn-multiservices.fr/peinture-appartement/</loc></url>
+<url><loc>https://adn-multiservices.fr/peinture-exterieure/</loc></url>
+<url><loc>https://adn-multiservices.fr/placo-platre-enduit/</loc></url>
+<url><loc>https://adn-multiservices.fr/ravalement-facade/</loc></url>
+<url><loc>https://adn-multiservices.fr/renovation-appartement/</loc></url>
+<url><loc>https://adn-multiservices.fr/revetement-sol/</loc></url>
+<url><loc>https://adn-multiservices.fr/stucco-venitien/</loc></url>
+<url><loc>https://adn-multiservices.fr/zone-intervention/</loc></url>
 </urlset>
